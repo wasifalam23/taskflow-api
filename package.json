@@ -1,0 +1,29 @@
+{
+	"name": "taskflow-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"dependencies": {
+		"bcrypt": "^6.0.0",
+		"dotenv": "^17.3.1",
+		"express": "^5.2.1",
+		"jsonwebtoken": "^9.0.3",
+		"mongoose": "^9.3.3",
+		"morgan": "^1.10.1"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.6",
+		"@types/morgan": "^1.9.10",
+		"@types/node": "^25.5.0",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^6.0.2"
+	}
+}
